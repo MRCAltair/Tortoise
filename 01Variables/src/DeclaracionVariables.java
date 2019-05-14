@@ -6,16 +6,17 @@ public class DeclaracionVariables {
 
 	public static void main(String[] args) {
 		
-		//Esto es un comentario de una sola línea
-		/* Esto es un comentario de más de una
-		 * línea y se pueden escribir todas las líneas que necesitemos
+		//Esto es un comentario de una sola lÃ­nea
+		/* Esto es un comentario de mÃ¡s de una
+		 * lÃ­nea y se pueden escribir todas las lÃ­neas que necesitemos
 		 */
 		
 		//Tipos PRIMITIVOS:
 		
 		// Enteros
+		//Desde el Servidor
 		
-		//Utilizamos este tipo de números para almecenar valores sin decimales:
+		//Utilizamos este tipo de nÃºmeros para almecenar valores sin decimales:
 		
 		byte b; // es de 8 bits representa desde -128 hasta +127.
 		short sh; //Es de 16 bits. Representa desde -32.768 hasta +32.767
@@ -34,10 +35,10 @@ public class DeclaracionVariables {
 		//Tipos REALES
 		//Almacenan valores con decimales
 		
-		final float PI = 3.1416F; //Precisión de 7 dígitos 32 bits.
-		final double PI2 = 3.1416; //Precisión de 16 dígitos 64 bits.
+		final float PI = 3.1416F; //PrecisiÃ³n de 7 dÃ­gitos 32 bits.
+		final double PI2 = 3.1416; //PrecisiÃ³n de 16 dÃ­gitos 64 bits.
 		
-		//Tipo LÓGICO O BOOLEANO
+		//Tipo LÃ“GICO O BOOLEANO
 		
 		boolean bool = false;
 		
@@ -53,7 +54,7 @@ public class DeclaracionVariables {
 		Boolean blE;
 		String cadena;
 		
-		//Declaración de constantes
+		//DeclaraciÃ³n de constantes
 		
 		final int FIN = 23;
 		
@@ -68,11 +69,11 @@ public class DeclaracionVariables {
 		
 		flotante01 = variable02.floatValue();
 		
-		System.out.println("Introduzca un número");
+		System.out.println("Introduzca un nÃºmero");
 		
 		Double gradosCelsius = sc.nextDouble();
 		
-		System.out.println("El número introducido es: " + gradosCelsius);
+		System.out.println("El nÃºmero introducido es: " + gradosCelsius);
 		
 		System.out.println("El valor de la varable prue es: " + prue);
 	}
